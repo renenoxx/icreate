@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iCreate — Digital Marketing Agency</title>
+    <meta
+      name="description"
+      content="iCreate is a digital marketing agency helping companies scale through social platforms, web development, content, video, photography and design."
+    />
+    <link rel="icon" type="image/png" href="/logos/icreate-mark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scroll-progress" data-progress aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true">
+      <svg class="cursor-star" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M12 1.2 13.85 10.15 22.8 12 13.85 13.85 12 22.8 10.15 13.85 1.2 12 10.15 10.15Z"
+          fill="#f3efe6"
+        />
+      </svg>
+    </div>
+
+    <div class="loader" data-loader>
+      <div class="loader-inner">
+        <img
+          class="loader-mark"
+          src="/logos/icreate-mark.png"
+          alt=""
+        />
+        <p class="loader-word">iCreate.</p>
+      </div>
+      <p class="loader-count" data-loader-count>00</p>
+      <p class="loader-label">Preparing the studio</p>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="iCreate home">
+        <img src="/logos/icreate-mark.png" alt="" class="brand-mark" />
+        <span class="brand-copy">
+          <span class="brand-name">iCreate</span>
+          <span class="brand-tag"
+            ><i></i> DIGITAL AGENCY</span
+          >
+        </span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#start-project">Start Project</a>
+      </nav>
+
+      <button class="menu-btn" type="button" data-menu-toggle aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-overlay" data-menu>
+      <div class="menu-overlay-bg"></div>
+      <nav class="menu-links">
+        <a href="#work" data-menu-link><em>01</em> Work</a>
+        <a href="#about" data-menu-link><em>02</em> About</a>
+        <a href="#services" data-menu-link><em>03</em> Services</a>
+        <a href="#start-project" data-menu-link><em>04</em> Start Project</a>
+        <a href="#contact" data-menu-link><em>05</em> Contact</a>
+      </nav>
+      <p class="menu-note">Now booking selected projects.</p>
+    </div>
+
+    <main id="top">
+      <section class="hero" data-hero>
+        <canvas class="hero-canvas" data-hero-canvas></canvas>
+        <div class="hero-veil"></div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Creative team · visual experiences</p>
+          <h1 class="display">
+            <span class="line"><span>We create</span></span>
+            <span class="line italic"><span>digital worlds.</span></span>
+          </h1>
+          <p class="lede">
+            A digital marketing studio for brands that want to be found, felt
+            and remembered — across the site, the feed, the map and the frame.
+          </p>
+          <p class="hero-rotate">
+            Currently shaping
+            <span class="rotate-window" data-rotate>
+              <span>websites</span>
+              <span>identities</span>
+              <span>campaigns</span>
+              <span>films</span>
+              <span>local presence</span>
+            </span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn solid" href="#work">View work <span>↗</span></a>
+            <a class="btn ghost" href="#start-project">Start a project</a>
+          </div>
+        </div>
+
+        <aside class="hero-aside" aria-hidden="true">
+          Web · Film · Identity · Social
+        </aside>
+
+        <div class="hero-footer">
+          <p>
+            Kigali, Rwanda<br />
+            <span>Now booking selected projects</span>
+          </p>
+          <a class="scroll-hint" href="#about">
+            Scroll to explore
+            <i></i>
+          </a>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Web Development</span>
+          <span>Google Maps</span>
+          <span>Content Creation</span>
+          <span>Short-form Video</span>
+          <span>Photography</span>
+          <span>Graphic Design</span>
+          <span>Brand Worlds</span>
+          <span>Social Presence</span>
+          <span>Web Development</span>
+          <span>Google Maps</span>
+          <span>Content Creation</span>
+          <span>Short-form Video</span>
+          <span>Photography</span>
+          <span>Graphic Design</span>
+          <span>Brand Worlds</span>
+          <span>Social Presence</span>
+        </div>
+      </div>
+
+      <section class="about" id="about">
+        <div class="section-index">
+          <span>01</span>
+          <em>About</em>
+        </div>
+        <div class="about-grid">
+          <p class="about-kicker reveal">Presence with intention</p>
+          <h2 class="about-title">
+            <span class="reveal-line"><span>We help brands grow</span></span>
+            <span class="reveal-line"><span>where people already</span></span>
+            <span class="reveal-line italic"><span>spend their attention.</span></span>
+          </h2>
+          <div class="about-copy">
+            <p class="about-body reveal">
+              From the first website to the last frame of a reel, we build the
+              digital system a company needs to be found, felt and remembered.
+              Clear words. Transparent process. Work that looks as considered as
+              it performs.
+            </p>
+            <p class="about-body reveal">
+              iCreate is one creative team — not a chain of freelancers taped
+              together. Strategy, design, web, maps, content, photography and
+              film share a single cinematic language, so the brand feels like
+              one world wherever someone meets it.
+            </p>
+          </div>
+        </div>
+
+        <div class="stat-grid">
+          <article class="stat">
+            <strong data-count="6">0</strong>
+            <span>Disciplines in one studio</span>
+          </article>
+          <article class="stat">
+            <strong>01</strong>
+            <span>Visual language, every channel</span>
+          </article>
+          <article class="stat">
+            <strong>∞</strong>
+            <span>Care to the last frame</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="principles">
+        <div class="section-index">
+          <span>02</span>
+          <em>Approach</em>
+        </div>
+        <h2 class="principles-title">
+          <span class="reveal-line"><span>How the work</span></span>
+          <span class="reveal-line italic"><span>actually feels.</span></span>
+        </h2>
+        <ol class="principle-list">
+          <li class="principle">
+            <em>01</em>
+            <h3>Felt, then found</h3>
+            <p>
+              Atmosphere first. We build worlds people want to stay in — then
+              make sure those worlds are easy to discover.
+            </p>
+          </li>
+          <li class="principle">
+            <em>02</em>
+            <h3>One language</h3>
+            <p>
+              Web, type, posts and film share a voice. No leftover templates.
+              No mixed signals across the brand.
+            </p>
+          </li>
+          <li class="principle">
+            <em>03</em>
+            <h3>Close, not complicated</h3>
+            <p>
+              Honest timelines, a clear path, and a team that stays near the
+              work after launch — not a vanishing act.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-index">
+          <span>03</span>
+          <em>Services</em>
+        </div>
+        <div class="services-head">
+          <h2>
+            <span class="reveal-line"><span>Everything a brand</span></span>
+            <span class="reveal-line italic"><span>needs to scale.</span></span>
+          </h2>
+          <p class="reveal">
+            One creative team for the platforms, the pictures, the pages and the
+            presence that keep a business moving.
+          </p>
+        </div>
+
+        <ul class="service-list">
+          <li class="service-item">
+            <span class="service-num">01</span>
+            <div>
+              <h3>Web Development</h3>
+              <p>
+                Fast, cinematic websites that feel like the brand and convert
+                like a storefront — built to load quickly and look considered
+                on every screen.
+              </p>
+              <ul class="service-tags">
+                <li>Sites</li>
+                <li>Landing pages</li>
+                <li>Storefronts</li>
+              </ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service-item">
+            <span class="service-num">02</span>
+            <div>
+              <h3>Google Maps Presence</h3>
+              <p>
+                We put the business on the map — searchable, trusted, ready to
+                be found locally when someone is already looking.
+              </p>
+              <ul class="service-tags">
+                <li>Business profile</li>
+                <li>Local discovery</li>
+                <li>Reviews</li>
+              </ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service-item">
+            <span class="service-num">03</span>
+            <div>
+              <h3>Content Creation</h3>
+              <p>
+                Stories, captions and campaigns shaped for the platforms your
+                audience actually opens — with a voice that sounds like the brand,
+                not a template.
+              </p>
+              <ul class="service-tags">
+                <li>Campaigns</li>
+                <li>Captions</li>
+                <li>Social strategy</li>
+              </ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service-item">
+            <span class="service-num">04</span>
+            <div>
+              <h3>Short-form Video</h3>
+              <p>
+                Reels and motion pieces cut for scroll-stopping rhythm and
+                lasting recall — cinematic enough for the brand, sharp enough
+                for the feed.
+              </p>
+              <ul class="service-tags">
+                <li>Reels</li>
+                <li>Motion</li>
+                <li>Brand films</li>
+              </ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service-item">
+            <span class="service-num">05</span>
+            <div>
+              <h3>Photography</h3>
+              <p>
+                Still images with atmosphere — product, lifestyle and brand
+                worlds you can feel, ready for web, print and social.
+              </p>
+              <ul class="service-tags">
+                <li>Product</li>
+                <li>Lifestyle</li>
+                <li>Editorial</li>
+              </ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service-item">
+            <span class="service-num">06</span>
+            <div>
+              <h3>Graphic Design</h3>
+              <p>
+                Identities, layouts and visual systems that stay sharp across
+                every screen — from the mark to the last campaign frame.
+              </p>
+              <ul class="service-tags">
+                <li>Identity</li>
+                <li>Layouts</li>
+                <li>Systems</li>
+              </ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="featured" id="work">
+        <p class="featured-ghost" aria-hidden="true">Individuality</p>
+        <div class="featured-stage" data-featured>
+          <div class="section-index light">
+            <span>04</span>
+            <em>Selected work</em>
+          </div>
+          <p class="featured-kicker">A lifestyle brand in motion</p>
+          <img
+            class="featured-logo"
+            src="/logos/individuality.png"
+            alt="Individuality"
+          />
+          <h2 class="featured-title">
+            Built for people who keep moving.
+          </h2>
+          <p class="featured-body">
+            Individuality is a lifestyle house made to keep people working
+            hard, training often, and bettering life on their own terms. Sport
+            first — especially running and anything that gets the body in
+            motion — then the quieter work of becoming someone you respect.
+            We are shaping the world around that idea: identity, narrative and
+            the digital presence a moving brand needs.
+          </p>
+          <dl class="featured-meta">
+            <div>
+              <dt>Role</dt>
+              <dd>Creative direction &amp; digital</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Lifestyle · running · self-mastery</dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd>Now featuring</dd>
+            </div>
+          </dl>
+          <ul class="featured-tags">
+            <li>Lifestyle</li>
+            <li>Running</li>
+            <li>Discipline</li>
+            <li>Self-mastery</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="process">
+        <div class="section-index">
+          <span>05</span>
+          <em>Method</em>
+        </div>
+        <h2 class="process-title">
+          <span class="reveal-line"><span>A calm path from</span></span>
+          <span class="reveal-line italic"><span>idea to impact.</span></span>
+        </h2>
+        <p class="process-lede reveal">
+          No fog, no vanishing act. Four steps from the first conversation to a
+          brand that keeps moving after launch.
+        </p>
+        <ol class="process-list">
+          <li>
+            <em>01</em>
+            <h3>Listen</h3>
+            <p>
+              We study the brand, the audience, and the growth you actually
+              want — before a single frame is made.
+            </p>
+          </li>
+          <li>
+            <em>02</em>
+            <h3>Shape</h3>
+            <p>
+              Positioning, visuals and a digital plan that can live on every
+              platform without losing its voice.
+            </p>
+          </li>
+          <li>
+            <em>03</em>
+            <h3>Produce</h3>
+            <p>
+              Web, maps, content, film and design — made in one cinematic
+              language, delivered with care.
+            </p>
+          </li>
+          <li>
+            <em>04</em>
+            <h3>Scale</h3>
+            <p>
+              We stay close, refine what works, and keep the brand in motion
+              long after the first launch.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="clients">
+        <div class="section-index">
+          <span>06</span>
+          <em>Studio</em>
+        </div>
+        <div class="clients-grid">
+          <h2>
+            <span class="reveal-line"><span>Built for founders,</span></span>
+            <span class="reveal-line italic"><span>houses and locals.</span></span>
+          </h2>
+          <p class="reveal">
+            We work with people who care how their brand feels in the hand and
+            on the screen — lifestyle houses, local businesses, hospitality,
+            culture brands and first-time founders ready to look considered.
+          </p>
+        </div>
+        <ul class="client-pills">
+          <li>Founders</li>
+          <li>Lifestyle</li>
+          <li>Hospitality</li>
+          <li>Local business</li>
+          <li>Culture</li>
+          <li>Retail</li>
+        </ul>
+      </section>
+
+      <section class="start-project" id="start-project">
+        <div class="section-index">
+          <span>07</span>
+          <em>Start project</em>
+        </div>
+        <h2>
+          <span class="reveal-line"><span>Tell us what</span></span>
+          <span class="reveal-line italic"><span>you want to build.</span></span>
+        </h2>
+        <p class="start-project-lede reveal">
+          Share a little about the brand and the work you need. We review every
+          inquiry personally and reply with next steps — usually within a few
+          days.
+        </p>
+
+        <form class="project-form" data-project-form novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="project-name">Name</label>
+              <input
+                id="project-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+                placeholder="Your name"
+              />
+              <span class="field-error" data-error="name" aria-live="polite"></span>
+            </div>
+            <div class="form-field">
+              <label for="project-email">Email</label>
+              <input
+                id="project-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                placeholder="you@company.com"
+              />
+              <span class="field-error" data-error="email" aria-live="polite"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="project-company">Company</label>
+              <input
+                id="project-company"
+                name="company"
+                type="text"
+                autocomplete="organization"
+                placeholder="Brand or business"
+              />
+            </div>
+            <div class="form-field">
+              <label for="project-need">What do you need</label>
+              <select id="project-need" name="need">
+                <option value="">Tell us the focus</option>
+                <option value="web">Website</option>
+                <option value="maps">Google Maps presence</option>
+                <option value="content">Content &amp; social</option>
+                <option value="video">Short-form video</option>
+                <option value="photo">Photography</option>
+                <option value="design">Graphic design</option>
+                <option value="full">Full digital world</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="project-message">Project / message</label>
+            <textarea
+              id="project-message"
+              name="message"
+              rows="6"
+              required
+              placeholder="Tell us about your brand, goals, timeline and what you need from iCreate."
+            ></textarea>
+            <span class="field-error" data-error="message" aria-live="polite"></span>
+          </div>
+          <button class="btn solid project-submit" type="submit">
+            Send Project <span>↗</span>
+          </button>
+          <p class="form-status" data-form-status hidden></p>
+        </form>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-index">
+          <span>08</span>
+          <em>Contact</em>
+        </div>
+        <h2>
+          <span class="reveal-line"><span>Let’s build the next</span></span>
+          <span class="reveal-line italic"><span>world together.</span></span>
+        </h2>
+        <p class="contact-lede reveal">
+          A conversation is enough to start. Reach iCreate on the channel that
+          feels easiest — we read everything.
+        </p>
+
+        <div class="contact-rows">
+          <a class="contact-row" href="mailto:noxworld00@gmail.com">
+            <span>Email</span>
+            <strong>noxworld00@gmail.com</strong>
+            <em>↗</em>
+          </a>
+          <a
+            class="contact-row"
+            href="https://wa.me/27796323338"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>WhatsApp</span>
+            <strong>079 632 3338</strong>
+            <em>↗</em>
+          </a>
+          <a
+            class="contact-row"
+            href="https://www.instagram.com/icreatee.co/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Instagram</span>
+            <strong>icreatee.co</strong>
+            <em>↗</em>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="/logos/icreate-mark.png" alt="" />
+          <div>
+            <strong>iCreate</strong>
+            <span>Creative team · visual experiences</span>
+          </div>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#start-project">Start project</a>
+        </nav>
+        <div class="footer-meta">
+          <p>Kigali, Rwanda</p>
+          <p>Working everywhere</p>
+          <a href="https://www.instagram.com/icreatee.co/" target="_blank" rel="noreferrer">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year></span> iCreate. All rights reserved.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
